@@ -25,7 +25,7 @@ window.TENIS_DATA = {
          "Mario Ljušanin": 8,
         "Tin Kovačević": 1,
         "Luka Petrović": 0,
-        "Luka Spajić": 5
+        "Luka Spajić": 4
       }
     }
     
