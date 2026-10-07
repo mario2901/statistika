@@ -13,7 +13,3 @@ Otvori `data.js` i u `sessions` dodaj novi objekt:
 ```
 Sve ostalo (poredak, postoci, povijest) računa se automatski.
 
-## Objava na GitHub Pages
-1. Napravi novi repo (npr. `tenis-stats`) i pushaj ove datoteke.
-2. Settings → Pages → Source: `Deploy from a branch` → `main` / `(root)` → Save.
-3. Stranica je za minutu na `https://<username>.github.io/tenis-stats/`.
