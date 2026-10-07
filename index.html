@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="hr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tenis Liga · Statistika</title>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎾</text></svg>"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Barlow:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="hero">
+      <svg
+        class="court"
+        viewBox="0 0 400 200"
+        preserveAspectRatio="none"
+        aria-hidden="true"
+      >
+        <rect x="10" y="10" width="380" height="180" />
+        <line x1="10" y1="32" x2="390" y2="32" />
+        <line x1="10" y1="168" x2="390" y2="168" />
+        <line x1="200" y1="10" x2="200" y2="190" class="net" />
+        <line x1="105" y1="32" x2="105" y2="168" />
+        <line x1="295" y1="32" x2="295" y2="168" />
+        <line x1="105" y1="100" x2="295" y2="100" />
+      </svg>
+      <div class="hero-inner">
+        <div class="brand">
+          <span class="ball" aria-hidden="true"></span>
+          <span>Tenis Liga</span>
+        </div>
+        <h1>Statistika<br /><em>TENISKI TALENATA</em></h1>
+        <p class="sub">
+          Tko vlada terenom? Pobjede, forma i povijest svih termina.
+        </p>
+      </div>
+    </header>
+
+    <main class="wrap">
+      <section class="kpis" id="kpis"></section>
+
+      <section class="card">
+        <div class="card-head">
+          <h2>Poredak</h2>
+          <span class="tag">Ukupno pobjeda</span>
+        </div>
+        <ol class="board" id="board"></ol>
+      </section>
+
+      <section class="card">
+        <div class="card-head">
+          <h2>Povijest termina</h2>
+          <span class="tag" id="sessionCount"></span>
+        </div>
+        <div class="history" id="history"></div>
+      </section>
+    </main>
+
+    <footer class="foot">
+      <span class="ball small" aria-hidden="true"></span>
+      Game, set, match · <span id="updated"></span>
+    </footer>
+
+    <script src="data.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
