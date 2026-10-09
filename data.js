@@ -4,28 +4,28 @@
 // ===============================================
 window.TENIS_DATA = {
   players: [
-    "Mario Ljušanin",
-    "Tin Kovačević",
-    "Luka Petrović",
-    "Luka Spajić"
+    "Šiljac",
+    "Borduš",
+    "Baza",
+    "Prika"
   ],
   sessions: [
     {
       date: "2026-10-05",
       wins: {
-        "Mario Ljušanin": 8,
-        "Tin Kovačević": 1,
-        "Luka Petrović": 0,
-        "Luka Spajić": 2
+        "Šiljac": 8,
+        "Borduš": 1,
+        "Baza": 0,
+        "Prika": 2
       }
     },
     {
       date: "2026-10-7",
       wins: {
-         "Mario Ljušanin": 8,
-        "Tin Kovačević": 1,
-        "Luka Petrović": 0,
-        "Luka Spajić": 4
+         "Šiljac": 8,
+        "Borduš": 1,
+        "Baza": 0,
+        "Prika": 4
       }
     }
     
