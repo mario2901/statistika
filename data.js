@@ -27,6 +27,15 @@ window.TENIS_DATA = {
         "Baza": 0,
         "Prika": 4
       }
+    },
+    {
+      date: "2026-10-12",
+      wins: {
+         "Šiljac": 7,
+        "Borduš": 7,
+        "Baza": 0,
+        "Prika": 6
+      }
     }
     
   ]
