@@ -47,13 +47,14 @@ window.TENIS_DATA = {
       },
     },
     {
-      date: "2026-10-17",
+      date: "2026-10-20",
       wins: {
-        Šiljac: 4,
-        Borduš: 8,
-        Baza: 0,
+        Šiljac: 0,
+        Borduš: 11,
+      
         Prika: 0,
       },
     },
+    
   ],
 };
